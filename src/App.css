@@ -1,0 +1,77 @@
+*{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(211, 223, 223);
+}
+
+.container1{
+  padding: 30px;
+}
+
+input{
+  height: 30px;
+  padding: 5px;
+  width:200px;
+  font-size: 17px;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+input:focus{
+  border: 2px solid rgb(61, 61, 216);
+}
+
+
+.container2{
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5px;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.photo{
+  border-radius: 40px;
+  height: 200px;
+  width: 70%;
+}
+
+a{
+  background-color: rgb(195, 197, 195);
+  border: 1px solid rgb(207, 196, 196);
+  border-radius: 10px;
+  outline: none;
+  font-style: none;
+  text-decoration: none;
+  color: black;
+  transform: 0.7s;
+  padding: 7px;
+}
+
+.link{
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.link:hover{
+  transform: 0.7s;
+  padding: 7px 7px;
+}
